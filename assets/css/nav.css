@@ -17,7 +17,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   height: 30px;
-  font-size: clamp(10px, 2.5vw, 17px);
+  font-size: clamp(13px, 2.5vw, 17px);
 }
 
 .nav-icon p{
@@ -43,7 +43,7 @@
   }
 
   .nav-icon p{
-    display: contents;
+    display: inline-block;
   }
 }
 
