@@ -6,4 +6,47 @@
   right: 0;
   left: 0;
   height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-icon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30px;
+  font-size: clamp(10px, 2.5vw, 17px);
+}
+
+.nav-icon p{
+  display: none;
+}
+
+.nav-icon img{
+  height: 25px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #F4EBD0;
+}
+
+@media screen and (min-width: 450px) {
+  .nav-icon{
+    flex-direction: row;
+  }
+
+  .nav-icon img{
+    margin-right: 5px;
+  }
+
+  .nav-icon p{
+    display: contents;
+  }
+}
+
+@media screen and (min-width: 1000px){
+
 }
