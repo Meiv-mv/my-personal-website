@@ -13,6 +13,9 @@
   color: #122620;
 }
 
-div{
+.skills,
+.portfolio,
+.contacts{
   height: 500px;
+  border: 1px solid #122620;
 }

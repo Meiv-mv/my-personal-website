@@ -5,17 +5,19 @@
   margin-top: 35px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  border: 1px solid #122620;
 }
 
 .name{
   font-weight: 700;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .header img{
-  width: 200px;
+  width: 215px;
   border-radius: 100%;
 }
 
@@ -23,21 +25,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 235px;
+  font-size: 13px;
+  margin: 0 10px;
 }
 
 @media screen and (min-width: 700px){
   .header{
     flex-direction: row;
     justify-content: center;
+    height: 400px;
+  }
+
+  .name{
+    font-size: 25px;
   }
 
   .about-me-info{
-    height: auto;
+    font-size: 20px;
   }
 
   .header img{
-    margin-right: 50px;
-    width: 250px;
+    width: 240px;
   }
 }
