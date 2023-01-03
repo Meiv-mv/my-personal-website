@@ -1,5 +1,4 @@
 .skills{
-  /*background-color: #F4EBD0;*/
   background: linear-gradient(#F4EBD0, #FFDEB3, #FFDEB3, #e0977c);
   color: #122620;
   display: flex;
@@ -47,18 +46,11 @@
 }
 
 .complete span{
-  /*background-color: rgba(34, 139, 34, 0.808);*/
   background: linear-gradient(35deg, rgba(0, 128, 0, 0.836) 30%, rgba(6, 202, 228, 0.712));
 }
 
 .work-in-progress span{
-  /*background-color: rgba(255, 255, 0, 0.836);*/
-  background: linear-gradient(35deg, #FF9671, #F9F871);
-}
-
-.scheduled span{
-  /*background-color: rgba(255, 0, 0, 0.733);*/
-  background: linear-gradient(35deg, rgba(255, 0, 0, 0.705) 35%, white);
+  background: linear-gradient(35deg, red, #F9F871);
 }
 
 .skills-icon img{
@@ -67,7 +59,7 @@
 }
 
 .portfolio{
-  background-color: #d6ad60;
+  background: linear-gradient(#D6AD60, #9C792E);
   color: #122620;
 }
 
