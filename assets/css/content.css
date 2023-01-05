@@ -120,11 +120,73 @@
 .contacts{
   background: linear-gradient(#F4EBD0, #FFDEB3, #FFDEB3, #e0977c);
   color: #122620;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contacts-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contacts-title{
+  font-size: 20px;
+}
+
+.contacts-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2px;
+}
+
+.contacts-container a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-button{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 45px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 80%;
+}
+
+.contact-button img{
+  height: 28px;
+}
+
+.instagram-button{
+  background: linear-gradient(35deg, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.github-button{
+  background: linear-gradient(35deg, #fafafa, #6cc644, #4078c0);
+}
+
+.email-button{
+  background: linear-gradient(35deg, #f2a60c 10%, #c71610);
+}
+
+.discord-button{
+  background: linear-gradient(35deg, #7289da 15%, #ffffff, 	#99aab5, #2c2f33);
 }
 
 .skills,
-.portfolio,
-.contacts{
+.portfolio{
   height: 500px;
   border: 1px solid #122620;
 }
@@ -153,5 +215,10 @@
   .skills-icon span{
     width: 80px;
     height: 80px;
+  }
+
+  .contacts-container{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
   }
 }
