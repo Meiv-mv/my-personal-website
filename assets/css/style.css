@@ -4,3 +4,20 @@
   box-sizing: border-box;
   font-family: DM Sans, Arial;
 }
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background: #122620;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #F4EBD0;
+  border: 2px solid #122620;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #B68D40;
+}
