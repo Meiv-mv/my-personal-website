@@ -57,6 +57,24 @@
   }
 
   .about-me-info{
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .about-me-info{
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .about-me-info{
+    width: 780px;
+  }
+}
+
+@media screen and (min-width: 1540px){
+  .about-me-info{
     width: 900px;
   }
 }
