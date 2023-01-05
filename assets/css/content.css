@@ -221,3 +221,32 @@
     column-gap: 20px;
   }
 }
+
+@media screen and (min-width: 1025px){
+  .project-button{
+    transition: all 0.1s linear;
+  }
+
+  .project-button:hover{
+    box-shadow: 0 0 10px #F4EBD0;
+    font-size: 22px;
+    padding: 4px 14px;
+  }
+
+  .contact-button{
+    transition: all 0.2s linear;
+    cursor: pointer;
+  }
+
+  .contact-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+  }
+
+  .contact-button p{
+    display: none;
+  }
+  
+  .contact-button:hover p{
+    display: inline-block;
+  }
+}
