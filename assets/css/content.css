@@ -120,7 +120,6 @@
 .contacts{
   background: linear-gradient(#F4EBD0, #FFDEB3, #FFDEB3, #e0977c);
   color: #122620;
-  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
