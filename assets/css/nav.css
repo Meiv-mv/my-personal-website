@@ -12,21 +12,22 @@
   z-index: 100;
 }
 
+.nav li{
+  list-style-type: none;
+}
+
 .nav-icon{
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 5px;
   height: 30px;
-  font-size: clamp(13px, 2.5vw, 17px);
-}
-
-.nav-icon p{
-  display: none;
+  font-size: clamp(11px, 2.5vw, 17px);
 }
 
 .nav-icon img{
-  height: 25px;
+  height: 18px;
 }
 
 .nav a{
@@ -40,6 +41,7 @@
   }
 
   .nav-icon img{
+    height: 25px;
     margin-right: 5px;
   }
 

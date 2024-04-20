@@ -133,6 +133,7 @@
   align-items: center;
   font-weight: 500;
   font-size: 15px;
+  padding: 0 8px;
 }
 
 .contacts-title{
@@ -196,7 +197,7 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 730px) {
   .skills-container{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
