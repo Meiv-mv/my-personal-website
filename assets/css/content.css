@@ -119,7 +119,7 @@
 
 #notes{
   font-size: 12px;
-  margin: 0 5px;
+  margin: 10px;
 }
 
 .contacts{
@@ -222,6 +222,15 @@
     height: 80px;
   }
 
+  .projects-scroll{
+    height: 80%;
+  }
+
+  .project-container{
+    min-width: 300px;
+    height: 365px;
+  }
+
   .portfolio h2{
     font-size: 35px;
   }
@@ -233,6 +242,16 @@
 }
 
 @media screen and (min-width: 1025px){
+  .projects-scroll{
+    height: 92%;
+    gap: 20px;
+  }
+
+  .project-container{
+    min-width: 320px;
+    height: 385px;
+  }
+
   .project-button{
     transition: all 0.1s linear;
   }
